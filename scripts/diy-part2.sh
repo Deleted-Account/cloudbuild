@@ -41,6 +41,11 @@ rm -rf package/luci-app-passwall
 rm -rf package/lean/luci-app-passwall
 rm -rf feeds/luci/applications/luci-app-passwall
 
-svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall package/luci-app-passwall
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/shadowsocksr-libev package/shadowsocksr-libev
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/simple-obfs package/simple-obfs
+# svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall package/luci-app-passwall
+# svn co https://github.com/xiaorouji/openwrt-passwall/trunk/shadowsocksr-libev package/shadowsocksr-libev
+# svn co https://github.com/xiaorouji/openwrt-passwall/trunk/simple-obfs package/simple-obfs
+
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
+svn co https://github.com/xiaorouji/openwrt-passwall-packages/trunk/shadowsocksr-libev package/shadowsocksr-libev
+svn co https://github.com/xiaorouji/openwrt-passwall-packages/trunk/simple-obfs package/simple-obfs
+svn co https://github.com/xiaorouji/openwrt-passwall-packages/trunk/tcping package/tcping
